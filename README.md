@@ -34,6 +34,12 @@
 {% api-method-parameter name="value" type="string" %} 검색 값 {% endapi-method-parameter 
 {% endapi-method-request %}
 
+
+
+
+
+
+
 {% api-method method="get" host="https://api.cakes.com" path="/v1/cakes/:id" %}
 {% api-method-summary %}
 Get Cakes
