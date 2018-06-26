@@ -32,12 +32,14 @@ This endpoint allows you to get free cakes.
 {% api-method-request %}
 {% api-method-query-parameters %}
 {% api-method-parameter name="t" type="string" required=false %}
+test
 * `eq` - 검색 값과 같은 데이터
 * `ne` - 검색 값과 같지 않은 데이터
 * `gte` - 검색 값보다 크거나 같은 데이터
 * `gt` - 검색 값보다 큰 데이터
 * `lte` - 검색 값보다 작거나 같은 데이터
 * `lt` - 검색 값보다 작은 데이터
+
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}
